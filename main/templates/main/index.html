@@ -1,0 +1,283 @@
+{% extends 'main/base.html' %}
+{%load static%}
+{%block title %} ATS_home_page {% endblock %}
+
+
+
+{% block header %}
+{% include 'main/header_main.html' %}
+{% endblock %}
+
+{% block content %}
+
+  <section id="about" class="about">
+    <div class="container" data-aos="fade-up">
+
+      <div class="row gy-4">
+        <div class="col-lg-6 position-relative align-self-start order-lg-last order-first">
+          <img src="{% static 'assets/img/about.png'%}" class="img-fluid" alt="">
+          <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox play-btn"></a>
+        </div>
+        <div class="col-lg-6 content order-last  order-lg-first">
+          <h3>{{ABOUT_US.about}}</h3>
+          <p>
+          {{ABOUT_US.INTRODUCTION}}
+          </p>
+          <p>
+            {{ABOUT_US.TELECOM_AND_CYBER_SECURITY}}
+          </p>
+          <ul>
+            
+            <li data-aos="fade-up" data-aos-delay="100">
+
+            
+              <div>
+              
+                <h5>{{ABOUT_US.Mission}}</h5>
+                <p>{{ABOUT_US.MISSION}}</p>
+              </div>
+            </li>
+          
+        
+              <li data-aos="fade-up" data-aos-delay="100" >
+
+      
+                <div>
+                  <h5>{{ABOUT_US.Vision}}</h5>
+                  <p>{{ABOUT_US.VISION}}</p>
+                </div>
+              
+        
+            </li>
+        
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End About Us Section -->
+  <section id="solutions" class="solutions section-bg">
+    <div class="container" data-aos="fade-up">
+      <div class="section-header">
+        <span>{{ABOUT_US.ADVANCED_TECHNICAL_SOLUTIONS.ADVANCED_TECHNICAL_SOLUTIONS}}</span>
+        <h2>{{ABOUT_US.ADVANCED_TECHNICAL_SOLUTIONS.ADVANCED_TECHNICAL_SOLUTIONS}}</h2>
+
+      </div>
+      <ul class="nav nav-tabs row  g-2 d-flex">
+
+        <li class="nav-item col-3">
+          <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tab-1">
+            <h4>{{ABOUT_US.ADVANCED_TECHNICAL_SOLUTIONS.TELECOM_SYSTEMS}}</h4>
+          </a>
+        </li><!-- End tab nav item -->
+
+        <li class="nav-item col-3">
+          <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
+            <h4>{{ABOUT_US.ADVANCED_TECHNICAL_SOLUTIONS.ICS_OT_CYBER_SECURITY}}</h4>
+          </a><!-- End tab nav item -->
+
+        <li class="nav-item col-3">
+          <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3">
+            <h4>{{ABOUT_US.ADVANCED_TECHNICAL_SOLUTIONS.ASK_FOR_A_CONSULTATION}}</h4>
+          </a>
+        </li><!-- End tab nav item -->
+      </ul>
+
+      <div class="tab-content">
+
+        <div class="tab-pane active show" id="tab-1">
+          <div class="row">
+            <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
+             
+              <p class="fst-italic">
+                {{ABOUT_US.ADVANCED_TECHNICAL_SOLUTIONS.text_TELECOM_SYSTEMS}}
+              </p>
+            </div>
+            <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
+              <img src="{% static 'assets/img/ethernet.jpg'%}" alt="" class="img-fluid">
+            </div>
+          </div>
+        </div><!-- End tab content item -->
+
+        <div class="tab-pane" id="tab-2">
+          <div class="row">
+            <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+           
+              <p class="fst-italic">
+                {{ABOUT_US.ADVANCED_TECHNICAL_SOLUTIONS.text_ICS_OT_CYBER_SECURITY}}
+              </p>
+         
+            </div>
+            <div class="col-lg-6 order-1 order-lg-2 text-center">
+              <img src="{% static 'assets/img/cyber.jpg'%}" alt="" class="img-fluid">
+            </div>
+          </div>
+        </div><!-- End tab content item -->
+
+        <div class="tab-pane" id="tab-3">
+          <div class="row">
+            <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+           
+              <p class="fst-italic">
+                {{ABOUT_US.ADVANCED_TECHNICAL_SOLUTIONS.text_ASK_FOR_A_CONSULTATION}}
+              </p>
+            </div>
+            <div class="col-lg-6 order-1 order-lg-2 text-center">
+              <img src="{% static 'assets/img/cons.jpg'%}" alt="" class="img-fluid">
+            </div>
+          </div>
+        </div><!-- End tab content item -->
+
+  
+      </div>
+
+    </div>
+  </section><!-- End solutions Section -->
+
+  <section id="sector" class="sectors pt-0">
+    <div class="container" data-aos="fade-up">
+
+      <div class="section-header">
+        <span>{{ABOUT_US.SECTORS_COVERAGE.SECTORS_COVERAGE}}</span>
+        <h2>{{ABOUT_US.SECTORS_COVERAGE.SECTORS_COVERAGE}}</h2>
+
+      </div>
+
+      <div class="row gy-4">
+
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="card">
+            <div class="card-img">
+              <img src="{% static 'assets/img/Energy.jfif'%}" alt="" class="img-fluid">
+            </div>
+            <h3><a href="sector-details.html" class="stretched-link">{{ABOUT_US.SECTORS_COVERAGE.title_ENERGY}}</a></h3>
+            <p>{{ABOUT_US.SECTORS_COVERAGE.ENERGY}}</p>
+          </div>
+        </div><!-- End Card Item -->
+
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="card">
+            <div class="card-img">
+              <img src="{% static 'assets/img/pow.jfif'%}" alt="" class="img-fluid">
+            </div>
+            <h3><a href="sector-details.html" class="stretched-link">{{ABOUT_US.SECTORS_COVERAGE.title_POWER_AND_UTILITIES}}</a></h3>
+            <p>{{ABOUT_US.SECTORS_COVERAGE.POWER_AND_UTILITIES}}</p>
+          </div>
+        </div><!-- End Card Item -->
+
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+          <div class="card">
+            <div class="card-img">
+              <img src="{% static 'assets/img/def.jfif'%}" alt="" class="img-fluid">
+            </div>
+            <h3><a href="sector-details.html" class="stretched-link">{{ABOUT_US.SECTORS_COVERAGE.title_DEFENCE}}</a></h3>
+            <p>{{ABOUT_US.SECTORS_COVERAGE.DEFENCE}}</p>
+          </div>
+        </div><!-- End Card Item -->
+
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+          <div class="card">
+            <div class="card-img">
+              <img src="{% static 'assets/img/Gove.jfif'%}" alt="" class="img-fluid">
+            </div>
+            <h3><a href="sector-details.html" class="stretched-link">{{ABOUT_US.SECTORS_COVERAGE.title_GOVERNMENT}}</a></h3>
+            <p>{{ABOUT_US.SECTORS_COVERAGE.GOVERNMENT}}</p>
+          </div>
+        </div><!-- End Card Item -->
+
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+          <div class="card">
+            <div class="card-img">
+              <img src="{% static 'assets/img/comer.jpg'%}" alt="" class="img-fluid">
+            </div>
+            <h3><a href="sector-details.html" class="stretched-link">{{ABOUT_US.SECTORS_COVERAGE.title_COMMERCIAL}}</a></h3>
+            <p>{{ABOUT_US.SECTORS_COVERAGE.COMMERCIAL}}</p>
+          </div>
+        </div><!-- End Card Item -->
+
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+          <div class="card">
+            <div class="card-img">
+              <img src="{% static 'assets/img/edu.jfif'%}" alt="" class="img-fluid">
+            </div>
+            <h3><a href="sector-details.html" class="stretched-link">{{ABOUT_US.SECTORS_COVERAGE.title_EDUCATION}}</a></h3>
+            <p>{{ABOUT_US.SECTORS_COVERAGE.EDUCATION}}</p>
+          </div>
+        </div><!-- End Card Item -->
+
+      </div>
+
+    </div>
+  </section><!-- End sectors Section -->
+      <!-- ======= Our Services Section ======= -->
+      <section id="services-list" class="services-list">
+        <div class="container" data-aos="fade-up">
+  
+          <div class="section-header">
+            <span>{{ABOUT_US.EXPERTISE.EXPERTISE}}</span>
+            <h2>{{ABOUT_US.EXPERTISE.EXPERTISE}}</h2>
+    
+          </div>
+  
+          <div class="row gy-5">
+            <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="600">
+              <div class="icon flex-shrink-0"><i class="bi bi-calendar4-week" style="color: #1335f5;"></i></div>
+              <div>
+                <h4 class="title"><a href="#" class="stretched-link">{{ABOUT_US.EXPERTISE.title_SYSTEM_INTEGRATION}}</a></h4>
+                <p class="description">{{ABOUT_US.EXPERTISE.SYSTEM_INTEGRATION}}</p>
+              </div>
+            </div><!-- End Service Item -->
+            <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+              <div class="icon flex-shrink-0"><i class="bi bi-briefcase" style="color: #f57813;"></i></div>
+              <div>
+                <h4 class="title"><a href="#" class="stretched-link">{{ABOUT_US.EXPERTISE.title_ENGINEERING_AND_DESIGN}}</a></h4>
+                <p class="description">{{ABOUT_US.EXPERTISE.ENGINEERING_AND_DESIGN}}</p>
+              </div>
+            </div>
+            <!-- End Service Item -->
+  
+            <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
+              <div class="icon flex-shrink-0"><i class="bi bi-card-checklist" style="color: #15a04a;"></i></div>
+              <div>
+                <h4 class="title"><a href="#" class="stretched-link">{{ABOUT_US.EXPERTISE.title_INSTALLATION_AND_COMMISSIONING}}</a></h4>
+                <p class="description">{{ABOUT_US.EXPERTISE.INSTALLATION_AND_COMMISSIONING}}</p>
+              </div>
+            </div><!-- End Service Item -->
+  
+            <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
+              <div class="icon flex-shrink-0"><i class="bi bi-bar-chart" style="color: #d90769;"></i></div>
+              <div>
+                <h4 class="title"><a href="#" class="stretched-link">{{ABOUT_US.EXPERTISE.title_MAINTENANCE_AND_SUPPORT}}</a></h4>
+                <p class="description">{{ABOUT_US.EXPERTISE.MAINTENANCE_AND_SUPPORT}}</p>
+              </div>
+            </div><!-- End Service Item -->
+  
+            <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="400">
+              <div class="icon flex-shrink-0"><i class="bi bi-binoculars" style="color: #15bfbc;"></i></div>
+              <div>
+                <h4 class="title"><a href="#" class="stretched-link">{{ABOUT_US.EXPERTISE.title_TRAINING_AND_EDUCATION}}</a></h4>
+                <p class="description">{{ABOUT_US.EXPERTISE.TRAINING_AND_EDUCATION}}</p>
+              </div>
+            </div><!-- End Service Item -->
+  
+            <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="500">
+              <div class="icon flex-shrink-0"><i class="bi bi-brightness-high" style="color: #f5cf13;"></i></div>
+              <div>
+                <h4 class="title"><a href="#" class="stretched-link">{{ABOUT_US.EXPERTISE.title_ADVISORY_AND_CONSULTANCY}}</a></h4>
+                <p class="description">{{ABOUT_US.EXPERTISE.ADVISORY_AND_CONSULTANCY}}</p>
+              </div>
+            </div><!-- End Service Item -->
+  
+           
+  
+          </div>
+  
+        </div>
+      </section><!-- End Our Services Section -->
+   
+   
+{% endblock %}
+
+{% block footer %}
+{% include 'main/footer_main.html' %}
+{% endblock %}

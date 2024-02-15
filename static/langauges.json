@@ -1,0 +1,174 @@
+{
+    "en": {
+      "Nav":{
+        "ICSOT_CYBER_SECURITY": "ICS/OT Cyber Security",
+        "IDENTIFY": "Identify",
+        "Industrial_Network_Architecture_Design": "Industrial Network Architecture Design",
+        "ICS_Asset_Inventory": "ICS Asset Inventory",
+        "Dataflow_Diagrams_&_ICS_Network": "Dataflow Diagrams & ICS Network",
+        "PROTECT": "Protect",
+        "ICS_Security_Hardening": "ICS Security Hardening",
+        "ICS_Remote_Access": "ICS Remote Access",
+        "ICS_End_Point_Security": "ICS End Point Security",
+        "ICS_Firewall_&_Intrusion_Detection": "ICS Firewall & Intrusion Detection",
+        "OPERATE_&_MAINTAIN": "Operate & Maintain",
+        "ICS_Security_Information_&_Event_Management": "ICS Security Information & Event Management",
+        "ICS_Patch_Management": "ICS Patch Management",
+        "ICS_Backup_&_Restore": "ICS Backup & Restore",
+        "TELECOM_SYSTEMS": "Telecom Systems",
+        "OUR_EXPERTISE": "Our Expertise",
+        "OUR_INDUSTRIES": "Our Industries"
+      },
+      "footer":{
+        "QUICK_LINKS":"QUICK LINKS",
+        "name_1":"NCA Urges Organizations in KSA to Embrace OTCC for Enhanced OT Cybersecurity",
+        "date_1":"November 4, 2023",
+        "name_2":"ATS and GCC Technical Services Co. Announce Strategic Partnership.",
+        "date_2":"May 1, 2023",
+        "name_3":"Top 5 ICS Security Measures for Critical Infrastructures in the Middle East",
+        "date_3":"April 14, 2022"
+      },
+      "Header":{
+        "Intro1":"Unlocking Operations Resilience,",
+        "Intro2":"Safeguarding Your Business Potential.",
+        "short_desc":"Over 20 years of expertise in ICT systems integration.",
+        "exp":"OUR EXPERTIES "
+      },
+
+
+      "ABOUT_US": {
+        "about":"ABOUT Us",
+        "INTRODUCTION": "ATS welcomes you to a fusion of technology products and services – a partnership to enhance your business performance and protect your assets. We work across multiple industry sectors and tailor-make telecom solutions for the energy, defence, and government sectors.",
+        "TELECOM_AND_CYBER_SECURITY": "ATS provides the telecom and cyber security solutions needed for your company to stay ahead of the industry. From system integration, engineering and design, installation, and commission, all the way to maintenance and consultancy services – ATS should be your chosen destination for high-end technological solutions.",
+        "Mission":"MISSION",
+        "MISSION": "To match our client’s requirements with optimal, best-fit solutions by leveraging technologies for added value with consultancy.",
+        "Vision":"VISION",
+        "VISION": "To ensure public and private sector organizations’ business and operational continuity, connectivity, and security.",
+        "ADVANCED_TECHNICAL_SOLUTIONS":{
+          "ADVANCED_TECHNICAL_SOLUTIONS":"ADVANCED TECHNICAL SOLUTIONS",
+          "TELECOM_SYSTEMS":"TELECOM SYSTEMS",
+          "text_TELECOM_SYSTEMS":"ATS delivers a comprehensive portfolio of network infrastructure, hardware and software solutions – all tailored to unique business and industry needs.",
+          "ICS_OT_CYBER_SECURITY":"ICS/OT CYBER SECURITY",
+          "text_ICS_OT_CYBER_SECURITY":"We understand the strong connection between industrial cybersecurity and process safety. We have expertise in both fields and work with leading energy.",
+          "ASK_FOR_A_CONSULTATION":"ASK FOR A CONSULTATION",
+          "text_ASK_FOR_A_CONSULTATION":"The team of experts at ATS can provide optimal, best-fit solutions and high-level consultancy for your business needs and goals. Connect with us to build total success and all-around security for your company."
+
+                },
+        "SECTORS_COVERAGE": {
+          "SECTORS_COVERAGE":"SECTORS COVERAGE",
+          "title_ENERGY":"ENERGY",
+          "ENERGY": "Integrating technology into the energy industry is crucial to boost operational efficiencies along the value chain.",
+          "title_POWER_AND_UTILITIES":"POWER AND UTILITIES",
+          "POWER_AND_UTILITIES": "Harnessing technology in the power and utilities sector integrates IT and OT with the potential.",
+          "title_DEFENCE":"DEFENCE",
+          "DEFENCE": "Technology is influencing the defence sector to enable the integration of all facilities and operations.",
+          "title_GOVERNMENT":"GOVERNMENT",
+          "GOVERNMENT": "Regulation, artificial intelligence, data analytics, and digital transformation redefine government products and services.",
+          "title_COMMERCIAL":"COMMERCIAL",
+          "COMMERCIAL": "The commercial sector faces growing demand across verticals where decision-makers must respond to increasingly complex data and risks.",
+          "title_EDUCATION":"EDUCATION",
+          "EDUCATION": "Technology is changing the education sector at the teaching and learning levels, making the overall experience more interactive."
+        },
+        "EXPERTISE": {
+          "EXPERTISE":"EXPERTISE",
+          "title_SYSTEM_INTEGRATION":"SYSTEM INTEGRATION",
+          "SYSTEM_INTEGRATION": "ATS integration center is our one-stop resource for solution integration assurance and support.",
+          "title_ENGINEERING_AND_DESIGN":"ENGINEERING AND DESIGN",
+          "ENGINEERING_AND_DESIGN": "A team of talented professionals armed with the latest tools and technology, and extensive access to resources.",
+          "title_INSTALLATION_AND_COMMISSIONING":"INSTALLATION AND COMMISSIONING",
+          "INSTALLATION_AND_COMMISSIONING": "Installation and Commissioning ATS’s experienced and highly qualified.",
+          "title_MAINTENANCE_AND_SUPPORT":"MAINTENANCE AND SUPPORT",
+          "MAINTENANCE_AND_SUPPORT": "All ATS products and solutions are covered by manufacturers’ warranties.",
+          "title_TRAINING_AND_EDUCATION":"TRAINING AND EDUCATION",
+          "TRAINING_AND_EDUCATION": "We provide comprehensive technical and operational training sessions to client teams.",
+          "title_ADVISORY_AND_CONSULTANCY":"ADVISORY_AND_CONSULTANCY",
+          "ADVISORY_AND_CONSULTANCY": "Each ATS project is overseen by a dedicated project manager to ensure end-to-end."
+        }
+      }
+    },
+    "ar": {
+      "Nav": {
+        "ICSOT_CYBER_SECURITY": "أمن السيبراني لأنظمة التحكم الصناعي والمعلوماتية التشغيلية",
+        "IDENTIFY": "تحديد",
+        "Industrial_Network_Architecture_Design": "تصميم الهيكلية الشبكية الصناعية",
+        "ICS_Asset_Inventory": "جرد الأصول لأنظمة التحكم الصناعي",
+        "Dataflow_Diagrams_&_ICS_Network": "مخططات تدفق البيانات وشبكات أنظمة التحكم الصناعي",
+        "PROTECT": "حماية",
+        "ICS_Security_Hardening": "تعزيز أمن أنظمة التحكم الصناعي",
+        "ICS_Remote_Access": "الوصول البعيد لأنظمة التحكم الصناعي",
+        "ICS_End_Point_Security": "أمن نقاط النهاية لأنظمة التحكم الصناعي",
+        "ICS_Firewall_&_Intrusion_Detection": "جدار الحماية وكشف التسلل لأنظمة التحكم الصناعي",
+        "OPERATE_&_MAINTAIN": "التشغيل والصيانة",
+        "ICS_Security_Information_&_Event_Management": "إدارة المعلومات والأحداث لأمن أنظمة التحكم الصناعي",
+        "ICS_Patch_Management": "إدارة التصحيحات لأنظمة التحكم الصناعي",
+        "ICS_Backup_&_Restore": "النسخ الاحتياطي والاستعادة لأنظمة التحكم الصناعي",
+        "TELECOM_SYSTEMS": "أنظمة الاتصالات",
+        "OUR_EXPERTISE": "خبرتنا",
+        "OUR_INDUSTRIES": "صناعاتنا"
+      },
+      "Header": {
+        "Intro1": "تمكين عمليات التشغيل",
+        "Intro2": " لحماية إمكانيات عملك",
+        "short_desc": "أكثر من 20 عامًا من الخبرة في دمج أنظمة تكنولوجيا المعلومات.",
+        "exp": "خبراتنا"
+      },
+      "footer":{
+        "QUICK_LINKS":"روابط سريعة",
+        "name_1":"تحث الجمعية الوطنية للأمن السيبراني في السعودية المنظمات على اعتماد تكنولوجيا الحوسبة عبر الأجهزة لتعزيز الأمن السيبراني",
+        "date_1":"4 نوفمبر 2023",
+        "name_2":"شركة النقل السريع وشركة خدمات التقنية بمجلس التعاون الخليجي تعلنان شراكة استراتيجية.",
+        "date_2":"1 مايو 2023",
+        "name_3":"أهم 5 إجراءات أمنية لأنظمة التحكم الصناعي في البنى التحتية الحيوية في الشرق الأوسط",
+        "date_3":"14 أبريل 2022"
+    },
+      "ABOUT_US": {
+        "about": "نبذة عنا",
+        "INTRODUCTION": "ترحب ATS بكم في دمج منتجات وخدمات تقنية - شراكة لتعزيز أداء أعمالكم وحماية أصولكم. نعمل عبر عدة قطاعات صناعية ونقدم حلول اتصالات مصممة خصيصًا لقطاعات الطاقة والدفاع والحكومة.",
+        "TELECOM_AND_CYBER_SECURITY": "تقدم ATS الحلول في مجالات الاتصالات والأمن السيبراني اللازمة لشركتكم للبقاء في مقدمة الصناعة. من تكامل النظام والهندسة والتصميم، والتركيب والتشغيل، وصولًا إلى الصيانة وخدمات الاستشارات - ينبغي أن تكون ATS الوجهة المفضلة لحلول التكنولوجيا المتقدمة.",
+        "Mission": "المهمة",
+        "MISSION": "تلبية متطلبات عملائنا من خلال توفير الحلول الأمثل والأفضل مناسبة لهم بالاستفادة من التكنولوجيا لزيادة القيمة بالاستشارات.",
+        "Vision": "الرؤية",
+        "VISION": "ضمان استمرارية أعمال وتواصل وأمان مؤسسات القطاعين العام والخاص.",
+        "ADVANCED_TECHNICAL_SOLUTIONS": {
+          "ADVANCED_TECHNICAL_SOLUTIONS": "الحلول التقنية المتقدمة",
+          "TELECOM_SYSTEMS": "أنظمة الاتصالات",
+          "text_TELECOM_SYSTEMS": "تقدم ATS مجموعة شاملة من البنية التحتية للشبكات والأجهزة وحلول البرمجيات - كلها مصممة حسب احتياجات الأعمال والصناعات الفريدة.",
+          "ICS_OT_CYBER_SECURITY": "أمن السيبراني لأنظمة التحكم الصناعي والمعلوماتية التشغيلية",
+          "text_ICS_OT_CYBER_SECURITY": "نحن نفهم الصلة القوية بين الأمن السيبراني الصناعي وسلامة العمليات. لدينا خبرة في كلتا المجالات ونعمل مع الشركات الرائدة في مجال الطاقة.",
+          "ASK_FOR_A_CONSULTATION": "اطلب استشارة",
+          "text_ASK_FOR_A_CONSULTATION": "يمكن لفريق الخبراء في ATS توفير الحلول الأمثل والأفضل مناسبة لاحتياجات عملكم وأهدافكم. اتصلوا بنا لبناء نجاحٍ شامل وأمانٍ شامل لشركتكم."
+        },
+        "SECTORS_COVERAGE": {
+          "SECTORS_COVERAGE": "تغطية القطاعات",
+          "title_ENERGY": "الطاقة",
+          "ENERGY": "دمج التكنولوجيا في قطاع الطاقة أمرٌ بالغ الأهمية لتعزيز الكفاءة التشغيلية على طول سلسلة القيمة.",
+          "title_POWER_AND_UTILITIES": "الطاقة والمرافق",
+          "POWER_AND_UTILITIES": "تسخير التكنولوجيا في قطاع الطاقة والمرافق يدمج تكنولوجيا المعلومات والتكنولوجيا التشغيلية.",
+          "title_DEFENCE": "الدفاع",
+          "DEFENCE": "التكنولوجيا تؤثر على قطاع الدفاع لتمكين دمج جميع المرافق والعمليات.",
+          "title_GOVERNMENT": "الحكومة",
+          "GOVERNMENT": "إعادة تعريف المنتجات والخدمات الحكومية من خلال التنظيم والذكاء الاصطناعي وتحليل البيانات والتحول الرقمي.",
+          "title_COMMERCIAL": "التجاري",
+          "COMMERCIAL": "يواجه القطاع التجاري طلبًا متزايدًا عبر القطاعات الرأسية حيث يجب على صانعي القرار الاستجابة للبيانات والمخاطر المعقدة بشكل متزايد.",
+          "title_EDUCATION": "التعليم",
+          "EDUCATION": "التكنولوجيا تغير قطاع التعليم على مستويات التدريس والتعلم، مما يجعل التجربة العامة أكثر تفاعلًا."
+        },
+        "EXPERTISE": {
+          "EXPERTISE": "خبرتنا",
+          "title_SYSTEM_INTEGRATION": "تكامل النظام",
+          "SYSTEM_INTEGRATION": "مركز التكامل في ATS هو مركزنا لضمان ودعم تكامل الحلول.",
+          "title_ENGINEERING_AND_DESIGN": "الهندسة والتصميم",
+          "ENGINEERING_AND_DESIGN": "فريق من المحترفين الموهوبين مدعومين بأحدث الأدوات والتكنولوجيا، والوصول الشامل إلى الموارد.",
+          "title_INSTALLATION_AND_COMMISSIONING": "التركيب والتشغيل",
+          "INSTALLATION_AND_COMMISSIONING": "فنيو ATS ذوو الخبرة والكفاءة العالية في التثبيت والتشغيل.",
+          "title_MAINTENANCE_AND_SUPPORT": "الصيانة والدعم",
+          "MAINTENANCE_AND_SUPPORT": "جميع منتجات وحلول ATS مشمولة بضمانات الشركات المصنعة.",
+          "title_TRAINING_AND_EDUCATION": "التدريب والتعليم",
+          "TRAINING_AND_EDUCATION": "نقدم جلسات تدريبية شاملة للفرق العملاء التقنية والتشغيلية.",
+          "title_ADVISORY_AND_CONSULTANCY": "الاستشارات والتشاور",
+          "ADVISORY_AND_CONSULTANCY": "يُشرف مدير المشروع المخصص في ATS على كل مشروع لضمان الإدارة من البداية إلى النهاية."
+        }
+      }
+    }
+  }
+  

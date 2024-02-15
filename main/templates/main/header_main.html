@@ -1,0 +1,84 @@
+ <!-- ======= Header ======= -->
+ <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="d-flex align-items-center">ATS</h1>
+      </a>
+
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="index.html" class="active">{{Nav.ICSOT_CYBER_SECURITY}}</a></li>
+          <li><a href="about.html">{{Nav.TELECOM_SYSTEMS}}</a></li>
+          <li><a href="services.html">{{Nav.OUR_EXPERTISE}}</a></li>
+          <li><a href="portfolio.html">{{Nav.OUR_INDUSTRIES}}</a></li>
+        
+        </ul>
+      </nav><!-- .navbar -->
+      <form method="get" action="/change_lang/" id="language-form" style="     background: rgba(14, 29, 52, 0.1);
+    padding: 15px 0;
+    box-shadow: 0px 2px 20px rgba(14, 29, 52, 0.1);">
+    <select class="selectpicker" name="lang" data-width="fit" id="language-selector" style="
+        border-radius: 6px;
+        margin-right: 10px;
+        font-weight: bold;
+        font-family: sans-serif;
+        background-color: transparent;
+        color: white;
+        cursor: pointer;
+        background: rgba(35, 45, 57, 0.8);
+        box-shadow: 0px 2px 20px rgba(14, 29, 52, 0.1);
+      ">
+      <option data-content="<span class=&quot;flag-icon flag-icon-us&quot;></span> English" style="background-color: black; cursor: pointer" value="en">
+        English
+      </option>
+      <option data-content="<span class=&quot;flag-icon flag-icon-us&quot;></span> Arabic" style="background-color: black; cursor: pointer" value="ar">
+        Arabic
+      </option>
+    
+    </select>
+    
+  </form>
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero d-flex align-items-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-6">
+          <h2 data-aos="fade-up">{{Header.Intro1}}</h2>
+          <h2 data-aos="fade-up">{{Header.Intro2}}</h2>
+          <blockquote data-aos="fade-up" data-aos-delay="100">
+            <p>{{Header.short_desc}}</p>
+          </blockquote>
+          <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
+            <a href="#about" class="btn-get-started">{{Header.exp}}</a>
+            <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section><!-- End Hero Section -->
+
+  <script>
+        
+
+    const languageSelect = document.getElementById("language-selector");
+      var selected_lang = "{{lang}}";
+      languageSelect.value = selected_lang
+    languageSelect.addEventListener("change", () => {
+      selected_lang = languageSelect.value
+      const languageForm = document.getElementById("language-form");
+      languageForm.submit();
+      languageSelect.value = selected_lang;
+  
+  
+    });
+  </script>
